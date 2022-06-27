@@ -1,13 +1,14 @@
-import React from 'react'
-import { AppBar } from '@mui/material'
+import React from "react";
+import { AppBar, Toolbar, Typography } from "@mui/material";
 
 export default function Header() {
   return (
-    // <AppBar>
-    //     Header
-    // </AppBar>
-    <div>
-        Header
-    </div>
-  )
+    <AppBar>
+      <Toolbar>
+        <Typography variant="h6" color="inherit" noWrap>
+          Front
+        </Typography>
+      </Toolbar>
+    </AppBar>
+  );
 }
