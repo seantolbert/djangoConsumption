@@ -1,5 +1,5 @@
 import React from "react";
-import { color, fontWeight, height, styled } from "@mui/system";
+import { styled } from "@mui/system";
 
 export default function Footer() {
 
